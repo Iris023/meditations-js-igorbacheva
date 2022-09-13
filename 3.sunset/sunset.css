@@ -1,0 +1,56 @@
+#body {
+    background: black;
+}
+
+#container-countdown {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+#countdown {
+    font-size: 60px;
+    margin-top: 100px; 
+    border-radius: 20px; 
+    background: linear-gradient(to right, #e48eb6, #f0e294);
+    font-family: 'Zen Old Mincho', serif;
+    color: #aa196d;
+}
+
+.displayNone {
+    display: none;
+}
+
+.timerDisplay {
+    display: block;    
+    padding: 30px;
+
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+#myButton {
+    height: 120px;
+    width: 280px;
+    background: #50a3daa9;;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Zen Old Mincho', serif;
+    border: 1px solid #116e66;
+    color: #ffffff;
+}
+
+#myButton:disabled {
+    color: rgba(255, 255, 255, 0.534);
+    background: rgba(128, 128, 128, 0.5);
+    border: 1px solid grey;
+}
+
+
