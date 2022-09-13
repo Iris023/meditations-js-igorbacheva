@@ -71,3 +71,9 @@
 }
 
 
+@media all and (max-width: 500px) {
+    #myVideo {
+        bottom: 0;
+        right: 0;
+    }
+}
