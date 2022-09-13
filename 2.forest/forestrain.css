@@ -53,4 +53,22 @@
     border: 1px solid grey;
 }
 
+#btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#backBtn {
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Zen Old Mincho', serif;
+    background: linear-gradient(to right, #317910, #b96e27);
+    color: #e4e127;
+    border: 1px solid #cecb23;
+    margin-top: 55px;
+    padding: 5px 10px;
+}
+
 

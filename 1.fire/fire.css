@@ -24,7 +24,6 @@
 .timerDisplay {
     display: block;    
     padding: 30px;
-
 }
 
 #myVideo {
@@ -45,7 +44,6 @@
     font-family: 'Zen Old Mincho', serif;
     border: 1px solid #6e1711;
     color: #9e2313;
-    margin-bottom: 55px;
 }
 
 #myButton:disabled {
@@ -56,8 +54,20 @@
 
 #btn-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#backBtn {
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Zen Old Mincho', serif;
+    background: linear-gradient(to right, #e79a34, #f0f3f5);
+    color: #770e2e;
+    border: 1px solid #6e1711;
+    margin-top: 55px;
+    padding: 5px 10px;
 }
 
 

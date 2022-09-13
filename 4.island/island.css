@@ -45,7 +45,6 @@
     font-family: 'Zen Old Mincho', serif;
     border: 1px solid #1c689f;
     color: #1c689f;
-    margin-bottom: 55px;
 }
 
 #myButton:disabled {
@@ -56,8 +55,20 @@
 
 #btn-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#backBtn {
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Zen Old Mincho', serif;
+    background: linear-gradient(to right, #58c2fa, #f0f3f5);
+    color: #1c689f;
+    border: 1px solid #1c689f;
+    margin-top: 55px;
+    padding: 5px 10px;
 }
 
 
