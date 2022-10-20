@@ -1,0 +1,151 @@
+#body {
+    background: black;
+}
+
+#container-countdown {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+#countdown {
+    font-size: 60px;
+    margin-top: 100px; 
+    border-radius: 20px; 
+    
+}
+
+.displayNone {
+    display: none;
+}
+
+.fire {
+    background: linear-gradient(to right, #e79a34, #f0f3f5);
+    font-family: 'Zen Old Mincho', serif;
+    color: #770e2e;
+}
+
+.rain {
+    background: linear-gradient(to right, #317910, #b96e27);
+    font-family: 'Zen Old Mincho', serif;
+    color: #e4e127;
+}
+
+.sunset {
+    background: linear-gradient(to right, #e48eb6, #f0e294);
+    font-family: 'Zen Old Mincho', serif;
+    color: #aa196d;
+}
+
+.waves {
+    background: linear-gradient(to right, #58c2fa, #f0f3f5);
+    font-family: 'Zen Old Mincho', serif;
+    color: #1c689f;
+}
+
+.timerDisplay {
+    display: block;    
+    padding: 30px;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+#myButton {
+    height: 120px;
+    width: 280px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.start-btn-fire {
+    background: #f0efa6a9;
+    border: 1px solid #6e1711;
+    color: #9e2313;
+}
+
+.start-btn-rain {
+    background: #31740ba9;;
+    border: 1px solid #cecb23;
+    color: #cecb23;
+}
+
+.start-btn-sunset {
+    background: #af7690b6;
+    border: 1px solid #982e60;
+    color: #ffffff;
+}
+
+.start-btn-waves {
+    background: #58c2fa;;
+    border: 1px solid #1c689f;
+    color: #1c689f;
+}
+
+#myButton:disabled {
+    color: rgba(255, 255, 255, 0.534);
+    background: rgba(128, 128, 128, 0.5);
+    border: 1px solid grey;
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#backBtn {
+    border-radius: 50%;
+    font-size: 20px;
+    font-family: 'Zen Old Mincho', serif;
+    margin-top: 55px;
+    padding: 5px 10px 10px;
+}
+
+.back-btn-fire {
+    background: linear-gradient(to right, #e79a34, #f0f3f5);
+    color: #770e2e;
+    border: 1px solid #6e1711;
+}
+
+.back-btn-rain {
+    background: linear-gradient(to right, #317910, #b96e27);
+    color: #e4e127;
+    border: 1px solid #cecb23;
+}
+
+.back-btn-sunset {
+    background: linear-gradient(to right, #e48eb6, #f0e294);
+    color: #aa196d;
+    border: 1px solid #982e60;
+}
+
+.back-btn-waves {
+    background: linear-gradient(to right, #58c2fa, #f0f3f5);
+    color: #1c689f;
+    border: 1px solid #1c689f;
+}
+
+
+@media all and (max-width: 500px) {
+    .video-fire {
+        bottom: 0;
+        right: 0;
+    }
+
+    .video-rain{
+        left: 0;
+    }
+
+    .video-waves {
+        bottom: 0;
+    }
+}
