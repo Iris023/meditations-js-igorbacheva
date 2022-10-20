@@ -57,6 +57,10 @@
     right: 0;
 }
 
+.video-rain{
+    left: 0;
+}
+
 #myButton {
     height: 120px;
     width: 280px;
@@ -139,11 +143,6 @@
     .video-fire {
         bottom: 0;
         right: 0;
-    }
-
-    .video-rain{
-        left: 0;
-        bottom: 0;
     }
 
     .video-waves {
