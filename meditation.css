@@ -50,11 +50,11 @@
 
 #myVideo {
     position: fixed;
-    top: 0;
-    right: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -10;
+    top: 0;
+    right: 0;
 }
 
 #myButton {
@@ -143,6 +143,7 @@
 
     .video-rain{
         left: 0;
+        bottom: 0;
     }
 
     .video-waves {
